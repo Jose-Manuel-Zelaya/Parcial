@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  	--color-rojizo:#a41313;
+  	--f7-navbar-bg-color: #a41313; /*navbar*/
+  	--f7-navbar-text-color:#fff; /*color texto navbar*/
+	--f7-bars-link-color:#fff; /*color íconos navbar*/
+  	--f7-bars-bg-color:#fff; /*toolbar*/
+	--f7-tabbar-link-inactive-color: #0e3746;
+	--color-rojo:#631010;
+	--color-gris:#dadde1;
+	--color-celeste:#edf6ff;
+
+}
+.block-title{
+	color: var(--color-rojo);
+}
+.title{
+	font-size: 30px;
+	line-height: normal;
+}
+.top-panel{
+	background-color: var(--color-rojizo);
+	color: white;
+	padding: 20px 0;
+	text-align: left;
+	padding-left: 20px;
+	font-weight: 500;
+	font-size: 27px;
+	margin-bottom: 6px;
+}
+.panel .list{
+	margin-top: 0;
+}
+.panel .list ul::before,
+.panel .list ul::after{
+	background-color: transparent;
+}
+.panel .list .item-inner::after{
+	background-color: transparent;
+}
+.panel .list span{
+	color: var(--color-rojo);
+}
+.panel .list{
+	font-size: 14px;
+}
+.sale{
+	padding: 67px 20px;
+	color: #fff;
+	border-radius: 5px;
+}
+.sale h3{
+	font-size: 24px;
+    position: relative;
+    top: 45px;
+}
+.sale .button{
+	display: inline;
+	padding: 5px 10px;
+	font-size: 12px;
+}
+.usr-list{
+	font-size: 24px;
+    position: relative;
+    top: 45px;
+}
+.bg-men{
+	background-image: url("../img/SingleRoom_Park_International.jpg");
+	background-size: cover;
+}
+.bg-women{
+	background-image: url("../img/Standard-double-park-international-hotel.jpg");
+	background-size: cover;
+}
+.bg-children{
+	background-image: url("../img/Twin-room-park-international.jpg");
+	background-size: cover;
+}
+.bg-boys{
+	background-image: url("../img/Quad_Room_Web_version_88bd2c.jpg");
+	background-size: cover;
+}
+.img-fluid{
+	max-width: 100%;
+	display: block;
+}
+.img-fluid propic{
+	max-width: 100%;
+	display: block;
+	border-radius: 100px;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 2px 0;
+}
+h1{
+	font-size: 30px;
+}
+h4{
+	font-size: 15px;
+	color: forestgreen;
+}
+.bm{
+	margin-right: 272px;
+    margin-left: -4px;
+    padding-top: 5px;
+    text-align: center;
+    color: grey;
+    background-color: white;
+    border-radius: 26px;
+    position: relative;
+    top: -54px;
+    right: -275px;
+}
+.card-content{
+	position: relative;
+    left: 14px;
+    top: 13px;
+}
+.productos .card-content{
+	padding: 5px 15px;
+	color: var(--color-rojo);
+	font-size: 12px;
+}
+.productos .button{
+	font-size: 12px;
+	width: 100%;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.productos .card-footer{
+	padding: 0;
+	min-height: 0;
+}
+.productos .card-header{
+	padding: 0;
+}
+.productos .card-header img{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.toolbar.tabbar-labels a{
+	color: var(--color-rojo);
+	font-size: 10px !important;
+	text-transform: none;
+}
+
+.brand{
+	box-shadow: 0px 0px 10px 4px #f3f9ff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+#list-products .item-media img{
+	width: 80px;
+}
+#list-products .price{
+	color: var(--color-rojo);
+	font-weight: 600;
+}
+
+.info-top{
+	font-size: 25px;
+	color: var(--color-rojo);
+	margin-top: 34px;
+	padding-bottom: 10px;
+}
+.details{
+	color: var(--color-rojo);
+}
+.details.block-title{
+	font-size: 18px;
+	text-align: center;
+}
+.details .label{
+	color: #aaa;
+	display: block;
+}
+.popup-order .done{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: var(--color-celeste);
+	margin: auto;
+}
+popup-order .done i{
+	font-size: 40px;
+	line-height: 100px;
+}
+.popup-order h2{
+	color: var(--color-rojo);
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+.popup-order{
+	color: var(--color-rojo);
+}
+.popup-order .button{
+	margin-top: 30px;
+}
+#login .page{
+	z-index: 1000; 
+}
+#login .login-screen-content{
+	
+}
